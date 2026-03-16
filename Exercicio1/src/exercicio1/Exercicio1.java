@@ -10,5 +10,12 @@ public class Exercicio1 {
         
         System.out.println("Area Total: "+ area_total);
         
+        
+        Data dt01 = new Data();
+        
+        
+        dt01.cadastarDados();
+        dt01.ImprimirDados();
+         
     }
 }

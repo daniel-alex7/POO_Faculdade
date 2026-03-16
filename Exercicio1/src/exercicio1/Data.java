@@ -21,15 +21,15 @@ public class Data {
         System.out.println("Digite o dia: ");
         dia = scan.nextInt();
         
-        System.out.println("Digite o dia: ");
+        System.out.println("Digite o mes: ");
         mes = scan.nextInt();
         
-        System.out.println("Digite o dia: ");
+        System.out.println("Digite o ano: ");
         ano = scan.nextInt();
     }
         
-    void ImprimirValor(){
-        System.out.println("A data de hoje é: " + dia +"   mes: "+ mes +"   ano: "+ ano);
+    void ImprimirDados(){
+        System.out.println("A data de hoje é: " + dia +"/"+ mes +"/"+ ano);
     }
    
     }
