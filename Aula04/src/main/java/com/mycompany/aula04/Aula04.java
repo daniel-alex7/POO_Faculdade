@@ -11,16 +11,16 @@ public class Aula04 {
         
         Funcionario f2 = new Funcionario(1234, 5000, "Analista PN");
         
-        System.out.println(f1.cargo);
-        //System.out.println(f2.cargo);
+        System.out.println(f1.getCargo());
+        //System.out.println(f2.getCargo());
         
         System.out.println("Aumento: " + f1.calcularAumento(0.1f));
         System.out.println("Aumento por tempo: " +f1.calcularAumento(3));
         
         
-        f2.salario = 7000;
+        f2.setSalario(7000f);
         
-        f1.cacularAumento(f2);
+        //
         System.out.println("Funcionario 1:  " + f1.calcularAumento(f1.salario));
         System.out.println("Funcionario 2:  " + f1.calcularAumento(f2.salario));
        

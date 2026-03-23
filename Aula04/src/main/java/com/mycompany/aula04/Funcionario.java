@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class Funcionario {
-    int cracha;
+    private int cracha;
     float salario;
     String cargo;
     
@@ -17,6 +17,30 @@ public class Funcionario {
         this.salario = salario;
         this.cargo = cargo;
         
+    }
+    
+    int getCracha(){
+        return cracha;
+    }
+    
+    float getSalario(){
+        return salario;
+    }
+    
+    String getCargo(){
+        return cargo;
+    }
+    
+    void setCracha(int c){
+        cracha = c;
+    }
+    
+    void setSalario(float s){
+        salario = s;
+    }
+    
+    void setCargo(String car){
+        cargo = car;
     }
     
     
