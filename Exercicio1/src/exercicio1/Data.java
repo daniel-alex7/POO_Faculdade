@@ -29,7 +29,7 @@ public class Data {
     }
         
     void ImprimirDados(){
-        System.out.println("A data de hoje é: " + dia +"/"+ mes +"/"+ ano);
+        System.out.println("A data: " + dia +"/"+ mes +"/"+ ano);
     }
    
     }
