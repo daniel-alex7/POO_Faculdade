@@ -48,8 +48,6 @@ public class Funcionario {
     
     }
 
-    void cacularAumento(Funcionario f2) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
 }
 
