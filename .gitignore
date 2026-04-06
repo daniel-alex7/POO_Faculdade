@@ -1,0 +1,24 @@
+# Compilados
+*.class
+
+# Pasta build
+/build/
+/dist/
+/target/
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
