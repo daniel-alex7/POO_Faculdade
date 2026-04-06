@@ -64,7 +64,7 @@ public class Torneio {
     }
     
     void ImprimirDados(){
-        System.out.println("O "+ nome +" vai competir na categoria: " + verificarCategoria());
+        System.out.println("O "+ getNome() +" vai competir na categoria: " + verificarCategoria());
     }
 }
         
