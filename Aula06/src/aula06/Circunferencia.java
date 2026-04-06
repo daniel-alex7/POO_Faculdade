@@ -20,12 +20,12 @@ public class Circunferencia extends Forma {
    
     @Override
     public float area () {
-        return (float) 3.14*(raio*raio);
+        return  (float) (Math.PI*(raio*raio));
     }
     
     @Override
     public float perimetro (){
-      return (float) (2 * 3.14 * raio);
+      return (float) (2 * Math.PI * raio);
     } 
     
     @Override
