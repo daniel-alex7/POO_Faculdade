@@ -22,3 +22,5 @@ nbproject/private/
 nbbuild/
 nbdist/
 .nb-gradle/
+/Ativade2Nota/build/
+/Ativade2Nota/nbproject/private/
