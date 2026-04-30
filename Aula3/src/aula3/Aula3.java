@@ -4,17 +4,25 @@
  */
 package aula3;
 
-/**
- *
- * @author DANIELROBSONALEXANDR
- */
 public class Aula3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Triangulo t1 = new Triangulo(10.5f, 5.0f);
+        Triangulo t2 = new Triangulo(20.0f, 15.0f);
+
+        System.out.println(t1.imprimeDados());
+        System.out.println(t2.imprimeDados());
+
+        System.out.println("---------------------------");
+
+        Data d1 = new Data(25, 4, 2026);
+        Data d2 = new Data();
+
+        System.out.println("Cadastro da segunda data:");
+        d2.cadastraDados();
+
+        d1.imprimeData();
+        d2.imprimeData();
     }
-    
 }

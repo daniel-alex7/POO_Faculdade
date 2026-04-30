@@ -27,6 +27,9 @@ descontoFalta(): float
 public class Aula05Vendedor {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // Instanciando o objeto para o Maven ter o que executar
+        Vendedor v1 = new Vendedor(2500.0f, 2000.0f, "Daniel Silva", 1);
+        v1.imprimeDados();
+        v1.calculaSalario();
     }
 }
